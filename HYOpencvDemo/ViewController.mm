@@ -44,7 +44,7 @@
             self.imageView2.image = [HYImageUtils imageProcess:[UIImage imageNamed:@"test.jpg"]];
         } break;
             
-        case 13: // 圆角
+        case 13:
         {
             
         } break;
@@ -54,14 +54,14 @@
             
         } break;
             
-        case 21:
+        case 21: // 圆角
         {
             self.imageView4.image = [HYImageUtils dealImage:[UIImage imageNamed:@"test2.png"] cornerRadius:20];
         } break;
             
-        case 22:
+        case 22: // 模糊
         {
-            
+            self.imageView4.image = [HYImageUtils blurryImage:[UIImage imageNamed:@"test2.png"] withBlurLevel:0.2];
         } break;
             
         case 23:

@@ -38,4 +38,10 @@
  */
 + (UIImage *)dealImage:(UIImage *)img cornerRadius:(CGFloat)corner;
 
+
+/**
+    加模糊效果，image是图片，blur是模糊度
+ */
++ (UIImage *)blurryImage:(UIImage *)image withBlurLevel:(CGFloat)blur;
+
 @end

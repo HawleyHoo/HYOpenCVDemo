@@ -61,6 +61,7 @@
                                     <constraint firstAttribute="width" constant="68" id="8RK-9G-bgU"/>
                                     <constraint firstAttribute="height" constant="49" id="td1-x7-l7p"/>
                                 </constraints>
+                                <state key="normal" title="毛玻璃"/>
                                 <connections>
                                     <action selector="buttonCliced:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cni-uV-RCy"/>
                                 </connections>

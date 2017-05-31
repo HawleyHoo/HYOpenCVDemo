@@ -18,6 +18,7 @@
 		39788AAD1EDE5B3C00A99C0B /* HYImageUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39788AAC1EDE5B3C00A99C0B /* HYImageUtils.mm */; };
 		39788AB11EDE5B5100A99C0B /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39788AAF1EDE5B5100A99C0B /* test.jpg */; };
 		39788AB21EDE5B5100A99C0B /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39788AB01EDE5B5100A99C0B /* test2.png */; };
+		39EB452B1EDEAD340097F8F7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EB452A1EDEAD340097F8F7 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		39788AAF1EDE5B5100A99C0B /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		39788AB01EDE5B5100A99C0B /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
 		39788AB31EDE5B5F00A99C0B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		39EB452A1EDEAD340097F8F7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39EB452B1EDEAD340097F8F7 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +97,7 @@
 				39788A8C1EDE5A3900A99C0B /* HYOpencvDemoTests */,
 				39788A971EDE5A3900A99C0B /* HYOpencvDemoUITests */,
 				39788A711EDE5A3900A99C0B /* Products */,
+				39EB45291EDEAD330097F8F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +173,14 @@
 				39788AB01EDE5B5100A99C0B /* test2.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		39EB45291EDEAD330097F8F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39EB452A1EDEAD340097F8F7 /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

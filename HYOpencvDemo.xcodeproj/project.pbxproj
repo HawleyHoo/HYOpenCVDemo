@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		39788A751EDE5A3900A99C0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39788A741EDE5A3900A99C0B /* main.m */; };
 		39788A781EDE5A3900A99C0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39788A771EDE5A3900A99C0B /* AppDelegate.m */; };
-		39788A7B1EDE5A3900A99C0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39788A7A1EDE5A3900A99C0B /* ViewController.m */; };
+		39788A7B1EDE5A3900A99C0B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39788A7A1EDE5A3900A99C0B /* ViewController.mm */; };
 		39788A7E1EDE5A3900A99C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39788A7C1EDE5A3900A99C0B /* Main.storyboard */; };
 		39788A801EDE5A3900A99C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39788A7F1EDE5A3900A99C0B /* Assets.xcassets */; };
 		39788A831EDE5A3900A99C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39788A811EDE5A3900A99C0B /* LaunchScreen.storyboard */; };
 		39788A8E1EDE5A3900A99C0B /* HYOpencvDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39788A8D1EDE5A3900A99C0B /* HYOpencvDemoTests.m */; };
 		39788A991EDE5A3900A99C0B /* HYOpencvDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39788A981EDE5A3900A99C0B /* HYOpencvDemoUITests.m */; };
+		39788AAD1EDE5B3C00A99C0B /* HYImageUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39788AAC1EDE5B3C00A99C0B /* HYImageUtils.mm */; };
+		39788AB11EDE5B5100A99C0B /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39788AAF1EDE5B5100A99C0B /* test.jpg */; };
+		39788AB21EDE5B5100A99C0B /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39788AB01EDE5B5100A99C0B /* test2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,7 @@
 		39788A761EDE5A3900A99C0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		39788A771EDE5A3900A99C0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		39788A791EDE5A3900A99C0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		39788A7A1EDE5A3900A99C0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39788A7A1EDE5A3900A99C0B /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		39788A7D1EDE5A3900A99C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39788A7F1EDE5A3900A99C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39788A821EDE5A3900A99C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,12 @@
 		39788A941EDE5A3900A99C0B /* HYOpencvDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYOpencvDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39788A981EDE5A3900A99C0B /* HYOpencvDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYOpencvDemoUITests.m; sourceTree = "<group>"; };
 		39788A9A1EDE5A3900A99C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39788AAA1EDE5B3C00A99C0B /* HYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYColor.h; sourceTree = "<group>"; };
+		39788AAB1EDE5B3C00A99C0B /* HYImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYImageUtils.h; sourceTree = "<group>"; };
+		39788AAC1EDE5B3C00A99C0B /* HYImageUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HYImageUtils.mm; sourceTree = "<group>"; };
+		39788AAF1EDE5B5100A99C0B /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		39788AB01EDE5B5100A99C0B /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
+		39788AB31EDE5B5F00A99C0B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +110,12 @@
 		39788A721EDE5A3900A99C0B /* HYOpencvDemo */ = {
 			isa = PBXGroup;
 			children = (
+				39788AAE1EDE5B4700A99C0B /* images */,
+				39788AA91EDE5B3C00A99C0B /* Utils */,
 				39788A761EDE5A3900A99C0B /* AppDelegate.h */,
 				39788A771EDE5A3900A99C0B /* AppDelegate.m */,
 				39788A791EDE5A3900A99C0B /* ViewController.h */,
-				39788A7A1EDE5A3900A99C0B /* ViewController.m */,
+				39788A7A1EDE5A3900A99C0B /* ViewController.mm */,
 				39788A7C1EDE5A3900A99C0B /* Main.storyboard */,
 				39788A7F1EDE5A3900A99C0B /* Assets.xcassets */,
 				39788A811EDE5A3900A99C0B /* LaunchScreen.storyboard */,
@@ -117,6 +128,7 @@
 		39788A731EDE5A3900A99C0B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39788AB31EDE5B5F00A99C0B /* PrefixHeader.pch */,
 				39788A741EDE5A3900A99C0B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +150,25 @@
 				39788A9A1EDE5A3900A99C0B /* Info.plist */,
 			);
 			path = HYOpencvDemoUITests;
+			sourceTree = "<group>";
+		};
+		39788AA91EDE5B3C00A99C0B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				39788AAA1EDE5B3C00A99C0B /* HYColor.h */,
+				39788AAB1EDE5B3C00A99C0B /* HYImageUtils.h */,
+				39788AAC1EDE5B3C00A99C0B /* HYImageUtils.mm */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		39788AAE1EDE5B4700A99C0B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				39788AAF1EDE5B5100A99C0B /* test.jpg */,
+				39788AB01EDE5B5100A99C0B /* test2.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +238,7 @@
 				TargetAttributes = {
 					39788A6F1EDE5A3900A99C0B = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 5HM8MCD8BZ;
+						DevelopmentTeam = 5C5VZ6884A;
 						ProvisioningStyle = Automatic;
 					};
 					39788A881EDE5A3900A99C0B = {
@@ -250,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39788A831EDE5A3900A99C0B /* LaunchScreen.storyboard in Resources */,
+				39788AB21EDE5B5100A99C0B /* test2.png in Resources */,
 				39788A801EDE5A3900A99C0B /* Assets.xcassets in Resources */,
 				39788A7E1EDE5A3900A99C0B /* Main.storyboard in Resources */,
+				39788AB11EDE5B5100A99C0B /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +309,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39788A7B1EDE5A3900A99C0B /* ViewController.m in Sources */,
+				39788AAD1EDE5B3C00A99C0B /* HYImageUtils.mm in Sources */,
+				39788A7B1EDE5A3900A99C0B /* ViewController.mm in Sources */,
 				39788A781EDE5A3900A99C0B /* AppDelegate.m in Sources */,
 				39788A751EDE5A3900A99C0B /* main.m in Sources */,
 			);
@@ -429,7 +463,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5HM8MCD8BZ;
+				DEVELOPMENT_TEAM = 5C5VZ6884A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HYOpencvDemo/opencv",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HYOpencvDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = HYOpencvDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -442,7 +481,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5HM8MCD8BZ;
+				DEVELOPMENT_TEAM = 5C5VZ6884A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HYOpencvDemo/opencv",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HYOpencvDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = HYOpencvDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -520,6 +564,7 @@
 				39788A9F1EDE5A3900A99C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39788AA01EDE5A3900A99C0B /* Build configuration list for PBXNativeTarget "HYOpencvDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +573,7 @@
 				39788AA21EDE5A3900A99C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39788AA31EDE5A3900A99C0B /* Build configuration list for PBXNativeTarget "HYOpencvDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +582,7 @@
 				39788AA51EDE5A3900A99C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
